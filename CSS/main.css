@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+@import url(http://fonts.googleapis.com/css?family=Roboto:900);
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Scheherazade);
+
+
+html, body, div,
+h1, h2, h3, h4, h5, h6, p,
+a, center,
+article, footer, header, nav, section,
+time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,footer, header, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* set border margin*/
+body{
+  margin: 2em 6em;
+  width:900px;
+}
+
+/*logo styling*/
+
+.logoStyleOne{
+font-family: Yellowtail;
+font-size: 40px;
+float:left;
+}
+
+.logoStyleTwo{
+  font-family:Open Sans Condensed;
+  font-size:14px;
+}
+
+.logoText{
+  float:right;
+  margin-right: 5px;
+}
+.logo{
+  float:left;
+  margin-top: 2em;
+  margin-left:7px;
+}
+
+
+/*nav styling*/
+ul li {
+  display:inline;
+  float:right;
+  padding:1px;
+  text-align: center;
+}
+
+.nav{
+
+}
+
+ul li:nth-child(2){
+  padding-left:10px;
+}
+
+.border{
+  margin-top:3em;
+  height:14px;
+  background-image:url("http://i.imgur.com/DtVTMkX.png");
+  clear:both;
+}
+
+/*article styling*/
+article{
+margin-top: 3em;
+}
+
+.recipeHeader{
+  color: #252525;
+  font-family:Oswald;
+  font-size:35px;
+}
+
+.postDate{
+  font-family:Open Sans Condensed;
+  color:#BBBABA;
+  font-size:15px;
+  margin-top:8px;
+  margin-bottom:;
+
+}
+
+.printButton{
+  float:right;
+  border:none;
+  background-color:white;
+  font-family: Open Sans Condensed;
+  font-size:14px;
+  color:#BBBABA;
+
+}
+
+.pizzaPhoto{
+margin:2em 0em;
+width:100%;
+}
+
+p{
+  padding: .5em 0em;
+  font-size:24px;
+  font-family:Scheherazade;
+  color:#5D5D5D;
+  text-indent:1em;
+
+}
+
+.ingredients{
+  background-image:url('http://i.imgur.com/lP0MYsj.png');
+  height:300px;
+  background-repeat: none;
+  margin: 1em;
+}
+
+
+/*about the author*/
+
+.about{
+  margin-top: 1.5em;
+}
+
+.vanessaPic{
+display: inline-block;
+
+
+}
+
+.aboutText{
+display: block;
+float:left;
+font-family: Scheherazade;
+}
+
+.author{
+ float:left;
+ margin-right:3em;
+}
+
+.share{
+  float: right;
+  color:white;
+  background-color:orange;
+  padding:1em 1em;
+  margin-left: 0em;
+  background-color: #BC6547;
+  border:none;
+  font-family: Open Sans Condensed;
+  font-size:14px;
+}
+
+/*footer */
+
+.footerBorder{
+  margin-top:7em;
+  border-top: thin solid;
+  border-color: #DEDEDE;
+
+}
+
+img.footerLogo{
+  margin-top:-5px;
+  display:block;
+  margin: -1em auto;
+  padding:.5;
+}
+
+.footerFont{
+  margin:3em 1px 5px 1px;
+  text-align:center;
+  padding:5px;
+  color:#BBBABA;
+}
+.footerText{
+  padding:3px;
+}
+
