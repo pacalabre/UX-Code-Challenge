@@ -42,7 +42,6 @@ table {
 /* set border margin*/
 body{
   margin: 2em 6em;
-  width:900px;
 }
 
 /*logo styling*/
@@ -69,7 +68,7 @@ float:left;
 }
 
 
-/*nav styling*/
+/*nav styling */
 ul li {
   display:inline;
   float:right;
@@ -193,6 +192,7 @@ img.footerLogo{
   display:block;
   margin: -1em auto;
   padding:.5;
+  border:5px solid #fff;
 }
 
 .footerFont{
