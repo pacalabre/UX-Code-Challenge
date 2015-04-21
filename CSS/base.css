@@ -9,9 +9,8 @@
 /*Eric Meyers Reset*/
 
 html, body, div,
-h1, h2, h3, h4, h5, h6, p,
-a, center,
-article, footer, header, nav, section,
+h1, h2, h3, h5, p,
+a, article, footer, header, nav, section,
 time {
   margin: 0;
   padding: 0;
@@ -20,27 +19,19 @@ time {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article,footer, header, nav, section {
+
+article, footer, header, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ul {
   list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 /*
@@ -52,8 +43,6 @@ table {
 * 12/29/2014
 */
 
-
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -63,6 +52,7 @@ table {
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
+
 .column,
 .columns {
   width: 100%;
@@ -70,6 +60,7 @@ table {
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
+
 @media (min-width: 400px) {
   .container {
     width: 85%;
@@ -77,11 +68,11 @@ table {
 }
 
 /* For devices larger than 550px */
+
 @media (min-width: 550px) {
   .container {
     width: 80%; }
-  .column,
-  .columns {
+  .column, .columns {
     margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
@@ -107,8 +98,10 @@ table {
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
+
 html {
   font-size: 62.5%; }
+
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
@@ -116,13 +109,14 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
-
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 h1, h2, h3, h5 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; }
+
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
 h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
@@ -130,6 +124,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 
 
 /* Larger than phablet */
+
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
   h2 { font-size: 4.2rem; }
@@ -140,32 +135,14 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 p {
   margin-top: 0; }
 
-
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 a {
   color: #1EAEDB; }
 
-/* Forms
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box; }
-
-textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
-input[type="checkbox"],
+a:hover {
+  color: #0FA0CE; }
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -186,34 +163,9 @@ p, ul {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
+
 .container:after,
-.row:after,
-.u-cf {
+.row:after {
   content: "";
   display: table;
   clear: both; }
-
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
