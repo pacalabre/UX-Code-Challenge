@@ -9,7 +9,8 @@
 .borderTop {
   border-width: 13px 0 0 0;
   border-image: url("http://i.imgur.com/DtVTMkX.png") 13 0 0 0 stretch;
-  padding: 2em;
+  padding: 1em;
+  margin-top: 3em;
 }
 
 /* Logo Styling */
@@ -123,7 +124,7 @@
 /* Footer */
 
 .footerBorder {
-  margin-top: 7em;
+  margin-top: 3em;
   border-top: thin solid;
   border-color: #DEDEDE;
 }
