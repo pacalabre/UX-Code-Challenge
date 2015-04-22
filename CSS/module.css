@@ -25,6 +25,12 @@
   color: #BBBABA;
 }
 
+.borderTop {
+  border-width: 13px 0 0 0;
+  border-image: url("http://i.imgur.com/DtVTMkX.png") 13 0 0 0 stretch;
+  padding: 2em;
+}
+
 /*logo styling*/
 
 .logo {
@@ -50,13 +56,9 @@
 
 /*nav styling */
 
-.nav {
-  display: inline;
-  padding: 1px;
-}
-
-ul li:nth-child(2) {
-  padding-left: 10px;
+.nav1 {
+  display: inline-block;
+  padding: 5px;
 }
 
 .border {
@@ -65,6 +67,10 @@ ul li:nth-child(2) {
   height: 14px;
   background-image: url("http://i.imgur.com/DtVTMkX.png");
   background-repeat: no-repeat;
+}
+
+.navSpace{
+  margin: 5px;
 }
 
 /*article styling*/
