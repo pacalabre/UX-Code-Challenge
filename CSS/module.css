@@ -56,21 +56,20 @@
 
 /*nav styling */
 
-.nav1 {
+.social-links {
+  float: right;
+}
+
+.social-links a, .social-links li {
   display: inline-block;
-  padding: 5px;
+  margin: -1px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
 }
 
-.border {
-  margin-top: 3em;
-  margin-bottom: 2em;
-  height: 14px;
-  background-image: url("http://i.imgur.com/DtVTMkX.png");
-  background-repeat: no-repeat;
-}
-
-.navSpace{
-  margin: 5px;
+.social-links li:nth-child(7) {
+  padding-left: 8px;
 }
 
 /*article styling*/
