@@ -1,0 +1,153 @@
+/* Reusable Styles */
+
+.button {
+  border: none;
+  font-family: Open Sans Condensed;
+  font-size: 15px;
+}
+
+.borderTop {
+  border-width: 13px 0 0 0;
+  border-image: url("http://i.imgur.com/DtVTMkX.png") 13 0 0 0 stretch;
+  padding: 1em;
+  margin-top: -1em;
+}
+
+/* Logo Styling */
+
+.logo {
+  margin-left: 7px;
+  margin-top: 10px;
+  float: left;
+}
+
+  .logo__logoStyleOne {
+    font-family: Yellowtail;
+    font-size: 40px;
+    margin-top: -8px;
+  }
+
+  .logo__logoStyleTwo {
+    font-family: Open Sans Condensed;
+    font-size: 14px;
+    margin-top: -3em;
+    clear: right;
+    text-transform: uppercase;
+  }
+
+  .logo__logoText {
+    margin-right: 5px;
+  }
+
+/* Nav Styling */
+
+.social-links {
+  float: right;
+}
+
+.social-links a, .social-links li {
+  display: inline-block;
+  margin: -1px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.social-links li:nth-child(7) {
+  padding-left: 8px;
+}
+
+/* Article Styling */
+
+.recipeHeader {
+  color: #252525;
+  font-family: Oswald;
+  font-size: 35px;
+  margin-top: 1.5em;
+}
+
+.postDate {
+  font-size: 15px;
+  font-family: abel;
+  color: #BBBABA;
+  text-transform: uppercase;
+}
+
+.pizzaPhoto {
+  margin: 2em 0em;
+  width: 100%;
+}
+
+.print {
+  margin-top: 4em;
+  background-color: white;
+  color: #BBBABA;
+  float: right;
+}
+
+.directionText {
+  text-indent: 2em;
+  padding: .5em 0em;
+}
+
+.ingredients {
+  background-image: url('http://i.imgur.com/lP0MYsj.png');
+  background-repeat: no-repeat;
+  font-family: Patrick Hand;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 3em;
+}
+
+/* About the Author */
+
+.vanessaPic {
+  display: inline-block;
+}
+
+.authorName {
+  font-size: 30px;
+  float: left;
+}
+
+.aboutParagraph {
+  clear: both;
+}
+
+.share {
+  color: white;
+  background-color: orange;
+  padding: 1em 1em;
+  margin-left: 0em;
+  background-color: #BC6547;
+  float: right;
+}
+
+/* Footer */
+
+.footerBorder {
+  margin-top: 3em;
+  border-top: thin solid;
+  border-color: #DEDEDE;
+}
+
+img.footerLogo {
+  margin-top: -5px;
+  display: block;
+  margin: -1em auto;
+  padding: .5;
+  border: 5px solid #fff;
+}
+
+.footerFont {
+  margin: 3em 1px 5px 1px;
+  text-align: center;
+  padding: 5px;
+  color: #BBBABA;
+}
+
+  .footerFont__footerText {
+    padding: 3px;
+    font-size: 15px;
+  }
+
